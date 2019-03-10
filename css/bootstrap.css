@@ -74,15 +74,7 @@ hr {
   overflow: visible;
 }
 
-/*! this will change where the title/header goes againts font not working */
-h1 {
-  margin-top: 50px;
-  margin-bottom: 0.5rem;
-  text-align: center;
-  font: againts;
-}
-
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 50px;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -93,13 +85,12 @@ p {
   margin-bottom: 1rem;
 }
 
-/*! change the nav bar design. not centreing or setting colour... */
+/*nav bar design */
 nav {
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: auto;
-  text-align: center;
-  color: rgb(0, 0, 0, 0);
 }
+
 
 abbr[title],
 abbr[data-original-title] {
