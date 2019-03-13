@@ -85,13 +85,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/*nav bar design */
-nav {
-  margin-top: 35px;
-  margin-bottom: auto;
-}
-
-
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -4064,6 +4057,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-top: 5rem
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4072,6 +4066,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: black;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4079,8 +4074,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
-  pointer-events: none;
+  pointer-events: default;
   cursor: default;
 }
 
@@ -4110,7 +4104,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #d3c0ad;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4164,6 +4158,8 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  margin: 100!important;
+  background-color: white;
 }
 
 .navbar > .container,
@@ -4547,7 +4543,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 
 .navbar-dark .navbar-text a {
