@@ -4452,8 +4452,5 @@
 
 }));
 
-$('.carousel').carousel({
-  interval: 100
-  .carousel('cycle')
-})
+
 //# sourceMappingURL=bootstrap.js.map
